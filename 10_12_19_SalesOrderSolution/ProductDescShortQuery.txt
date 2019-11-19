@@ -1,0 +1,159 @@
+UPDATE Products
+SET ProductDescShort = 'Tubeless Ready (TLR) rim with 29mm internal width supports your tire and allows for a quick transition to a tubeless system. 54-tooth Bontrager Rapid Drive hub provides quick engagement for fast accelerations.'
+Where ProductID = 1;
+
+UPDATE Products
+SET ProductDescShort = 'Black/Red frames come with 3 interchangeable lenses: a Smoke lens, an AC Red lens for increased contrast and a Clear lens that is perfect for low light.'
+Where ProductID = 2;
+
+UPDATE Products
+SET ProductDescShort = 'Boost 110/148 wide hub flanges enhance bracing angle to create a stiffer wheel. 6-bolt disc; Shimano 10/11 speed; SRAM XD driver available separately. Includes installed TLR rim strip, TLR valve and valve-core removal tool.'
+Where ProductID = 3;
+
+UPDATE Products
+SET ProductDescShort = 'Fully adjustable clamp fits 1–3 in. (25–76mm) diameter tubes and seat posts of any shape and material. Compact, quick-folding design with ergonomic knobs and smooth support straps. All-steel structure maximizes stiffness and durability.'
+Where ProductID = 4;
+
+UPDATE Products
+SET ProductDescShort = 'Durable, painted-steel barrel and base, ergonomic padded handle and extra-long 360° pivot hose all make it easy to pump tires. TwinHead DX pump head fits Presta, Schrader and Dunlop valves. 317.5 cc air volume per stroke.'
+Where ProductID = 5;
+
+UPDATE Products
+SET ProductDescShort = 'Dual Bluetooth 4.0 and ANT+ connectivity pairs with smartphones and sensors (power, speed, cadence, heart rate and more). Complete wireless functionality lets you sync ride data, upload routes and update software.'
+Where ProductID = 6;
+
+UPDATE Products
+SET ProductDescShort = 'Frameless acrylic mirror provides wide uninterrupted field of vision; mirror surface measures 1 - 7/16 inches x 1- 1/16 inches. Mirror face adjusts by rotating it 90° from the wire; fore and aft rotations offer fine-angle adjustments.'
+Where ProductID = 7;
+
+UPDATE Products
+SET ProductDescShort = 'Touch-screen compatible digits let you snap photos, answer texts, check your GPS and more, without removing your gloves. Strategically placed TruGel gel palm protection delivers plush comfort.'
+Where ProductID = 8;
+
+UPDATE Products
+SET ProductDescShort = 'Cannondale SmartForm C2 aluminum construction delivers an exceptionally lightweight, efficient and smooth ride. To offer the best blend of proper fit, speed and fun for all riders, Trail uses 27.5 in.'
+Where ProductID = 9;
+
+UPDATE Products
+SET ProductDescShort = 'Durable axles and sealed cartridge bearings ensure lasting performance. Tough nylon bodies have a proven shape for comfort and confidence. Replaceable steel traction pins help ensure your feet stay in place.'
+Where ProductID = 10;
+
+UPDATE Products
+SET ProductDescShort = 'Co-molded EPS foam is covered by a low-profile polycarbonate shell for impact protection. Low-profile suspension system with 1-handed adjustment dial and easily adjustable chin strap offers a comfortable fit.'
+Where ProductID = 11;
+
+UPDATE Products
+SET ProductDescShort = 'This bike is tailored to better fit the typical female body, so it has a shorter top tube, shorter stem, narrower handlebars and a women-specific saddle.'
+Where ProductID = 12;
+
+UPDATE Products
+SET ProductDescShort = 'Waterproof panniers (pair) with roll-top closure have a maximum carry load of 19.8 lbs. (9kg). Lightweight, sturdy polyurethane-laminated ripstop nylon fabric stands up to weather and abuse.'
+Where ProductID = 13;
+
+UPDATE Products
+SET ProductDescShort = 'Rotational motion can cause brain injuries; with MIPS, a low-friction layer slides 10 to 15mm in all directions, reducing rotational motion to the brain during impact.'
+Where ProductID = 14;
+
+UPDATE Products
+SET ProductDescShort = 'Relaxed fit is a nice alternative for riders not interested in typical tight-fitting cycling jerseys. Select Transfer fabric offers UPF 50+ sun protection.'
+Where ProductID = 15;
+
+UPDATE Products
+SET ProductDescShort = '11mm hardened Max-performance steel shackle material allows reduction of shackle diameter while maintaining the performance standards of the Evolution Mini series.'
+Where ProductID = 16;
+
+UPDATE Products
+SET ProductDescShort = '18mm hardened MAX-Performance steel shackle resists bolt cutters and leverage attacks; protective vinyl coating will not harm you finish.'
+Where ProductID = 17;
+
+UPDATE Products
+SET ProductDescShort = 'Dual-sided entry with robust retention claws offers easy entry and exit; adjustable release tension allows for individual customization based on rider preference.'
+Where ProductID = 18;
+
+UPDATE Products
+SET ProductDescShort = 'Provide a hands-free, easy-exit way to increase pedal power for all levels of mountain bike, road and recumbent riders.'
+Where ProductID = 19;
+
+UPDATE Products
+SET ProductDescShort = 'Lightweight, extremely impact-resistant Grilamid TR90 nylon frames offer an optimized fit and flexibility in all temperatures.'
+Where ProductID = 20;
+
+UPDATE Products
+SET ProductDescShort = 'UpperHand™ control lever tilts rack down for easy vehicle access. Padded arms feature fully adjustable, anti-sway cradles for superior protection and stability.'
+Where ProductID = 21;
+
+UPDATE Products
+SET ProductDescShort = 'Long-wearing, all-weather compound offers excellent modulation and a good combination of dry-condition stopping power and wet-weather control.'
+Where ProductID = 22;
+
+UPDATE Products
+SET ProductDescShort = 'Large platform with integrated traction pad technology for solid connection, seamless feel and efficient power transfer.'
+Where ProductID = 23;
+
+UPDATE Products
+SET ProductDescShort = 'Lumina Micro 550 front bike light delivers a powerful punch with 550 lumens, brilliantly helping you navigate your ride.'
+Where ProductID = 24;
+
+UPDATE Products
+SET ProductDescShort = 'Fully seam-sealed pants are made of 2.5-layer waterproof/breathable ripstop nylon that is windproof to 60+ mph.'
+Where ProductID = 25;
+
+UPDATE Products
+SET ProductDescShort = 'Heavy-duty recyclable plastic construction stands up to wear and tear; injection-molded arms and legs will never rust.'
+Where ProductID = 26;
+
+UPDATE Products
+SET ProductDescShort = 'Lightweight aluminum frame features a steeply angled top tube for easy mounts and dismounts; relaxed geometry ensures a comfortable upright riding position.'
+Where ProductID = 27;
+
+UPDATE Products
+SET ProductDescShort = 'Use of cork offers lightweight, natural damping to help reduce the impact of vibrations; textured pads enhance grip.'
+Where ProductID = 28;
+
+UPDATE Products
+SET ProductDescShort = 'Multitude of small knobs guarantees optimal traction on rugged, difficult trails. 3-layer Tubeless Ready-enabled casing offers excellent puncture protection against trail hazards.'
+Where ProductID = 29;
+
+UPDATE Products
+SET ProductDescShort = 'Arc-based design fits over most spoilers and separates bikes on different levels. Bike hold-downs are easy to use and quick to load. Integrated strap management eliminates flapping straps.'
+Where ProductID = 30;
+
+UPDATE Products
+SET ProductDescShort = 'Tread is tightly spaced for high speed, drag-free onslaughts, yet blocky and tall enough to really dig in when it comes time to slam on the brakes. Rounded profile and staggered, supported side knobs keep clamoring for traction.'
+Where ProductID = 31;
+
+UPDATE Products
+SET ProductDescShort = 'Soft, 2-layer waterproof, breathable polyester shell is critically seam sealed to keep you dry and comfortable. Breathable polyester mesh lining. Shoulder seams are placed forward to avoid abrasion under backpack straps. Drawcord hem lets you seal out wind and water.'
+Where ProductID = 32;
+
+UPDATE Products
+SET ProductDescShort = 'Versatile and easy-rolling profile adapts to any surface for a smooth ride. 3-layer Tubeless Ready-enabled casing offers excellent puncture protection against trail hazards and debris. PureGrip Compound construction adds traction and durability.'
+Where ProductID = 33;
+
+UPDATE Products
+SET ProductDescShort = 'Dual Bluetooth 4.0 and ANT+ connectivity pairs with smartphones and sensors (power, speed, cadence, heart rate and more). Complete wireless functionality lets you sync ride data, upload routes and update software. View trails on your handlebars—MTB Project To-Do List.'
+Where ProductID = 34;
+
+UPDATE Products
+SET ProductDescShort = 'Built-in 3-axis compass and barometric altimeter plus multiple global navigation satellite systems (GPS, GLONASS and Galileo) helps track in challenging environments. Battery life: up to 14 days in smartwatch mode, up to 16 hrs. in GPS mode, up to 40 hrs.'
+Where ProductID = 35;
+
+UPDATE Products
+SET ProductDescShort = 'Hybrid construction with thick ABS crown, an EPP foam liner and an EPS foam liner makes it compact on your head. Hard outer shell resists impact and abrasion, and offers reinforced protection against lateral, front and rear impacts.'
+Where ProductID = 36;
+
+UPDATE Products
+SET ProductDescShort = 'Hands-free coaster brake allows easy, intuitive stopping—just push back on the pedals to stop. Lightweight steel frame is stronger than aluminum and helps to soften the vibrations of the road; sealed bottom bracket supplies smooth pedaling.'
+Where ProductID = 37;
+
+UPDATE Products
+SET ProductDescShort = 'Monitors your heart rate and calories burned, plus distance and pace when used with a smartphone and most popular fitness apps. 2 LED lights show device connection (blue) and heart rate detection (red). Works seamlessly with over 50 apps.'
+Where ProductID = 38;
+
+UPDATE Products
+SET ProductDescShort = 'Darn Tough uses a custom-count, shrink-treated merino wool that enhances comfort and durability for outdoor activities. Merino wool wicks away moisture and breathes to regulate temperature for outstanding comfort in a variety of conditions.'
+Where ProductID = 39;
+
+UPDATE Products
+SET ProductDescShort = 'Features an Altus RM40 hub, and is compatible with 8-, 9- and 10-speed cassettes. Wear-indicator line tells you when it is time to replace the wheel. Recommended 19mm rim tape sold separately. UST technology lets you remove the tube to reduce friction.'
+Where ProductID = 40;

@@ -1,0 +1,329 @@
+﻿body {
+min-width: 40%;
+margin: 0 auto;
+width: 100%;
+background-color: darkkhaki;
+}
+
+#shopPage {
+margin: 0 auto;
+padding-left: 20%;
+padding-top: 5%;
+}
+
+#productsPageContent {
+margin: 0 auto;
+display: none;
+}
+
+/* Set padding to keep content from hitting the edges */
+/*.body-content {
+padding-left: 15px;
+padding-right: 15px;
+}*/
+
+/* Override the default bootstrap behavior where horizontal description lists 
+will truncate terms that are too long to fit in the left column 
+*/
+/*.dl-horizontal dt {
+white-space: normal;
+}*/
+
+/* Set width on the form input elements since they're 100% wide by default */
+/*input,
+select,
+textarea {
+max-width: 280px;
+}*/
+
+
+.logo img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+#indexImage img {
+margin: 0 auto;
+display: block;
+width: 100%;
+/*border: solid;
+border-width: 2em;
+border-color: white;*/
+}
+
+#indexImage {
+position: relative;
+width: 100%;
+}
+
+#indexImage .btn {
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffa31a;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 50%;
+    height: 20%;
+    font-size: 40px;
+}
+
+#indexAboutUsImage {
+padding-top: 2%;
+position: relative;
+width: 100%;
+}
+
+#indexAboutUsImage img {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border: solid;
+    border-width: 1em;
+    border-color: white;
+}
+
+#indexAboutUsImage .btn {
+    position: absolute;
+    top: 25%;
+    left: 67%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #ffa31a;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width: 25%;
+    height: 20%;
+    font-size: 40px;
+}
+
+    #indexAboutUsImage .btn:hover {
+        background-color: #e68a00;
+    }
+
+#indexImage .btn:hover {
+background-color: #e68a00;
+}
+
+.btn-success {
+color: firebrick;
+}
+
+.paragraph {
+font-size: 140%;
+max-width: 70%;
+width: 70%;
+color: black;
+padding-top: 2%;
+margin: 0 auto;
+}
+
+#aboutUsImage img {
+margin: 0 auto;
+display: block;
+width: 100%;
+/*border: solid;
+border-width: 2em;
+border-color: white;*/
+}
+
+
+#onlineStoreImage {
+position: relative;
+width: 100%;
+}
+
+#onlineStoreImage img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+}
+
+
+.contactForm .form-group .col-md-8 {
+width: 100%;
+margin: 0 auto;
+}
+
+#renderBody {
+width: 100%;
+}
+
+/*#switchboardButtons {
+width: 20%;
+float: left;  
+}
+
+#switchboardButtons button{
+margin-left: 15%;
+color: white;
+}*/
+
+#productImage {
+display: none;
+border: solid;
+border-color: black;
+}
+
+
+#header {
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+padding-top: 4%;
+padding-bottom: 0.2%;
+color: firebrick;
+font-size: 350%;
+font-weight: bold;
+text-align: center;
+}
+
+#subtitle {
+padding-top: 0.2%;
+padding-bottom: 2%;
+color: firebrick;
+font-size: 120%;
+font-weight: bold;
+text-align: center;
+display: none;
+}
+
+
+#footerStarter {
+font-size: 0.1%;
+}
+
+/*footer*/
+.col_white_amrc {
+color: #FFF;
+}
+
+footer {
+width: 100%;
+background-color: #263238;
+min-height: 250px;
+padding: 10px 0px 25px 0px;
+}
+
+.pt2 {
+padding-top: 40px;
+margin-bottom: 20px;
+}
+
+footer p {
+font-size: 13px;
+color: #CCC;
+padding-bottom: 0px;
+margin-bottom: 8px;
+}
+
+.mb10 {
+padding-bottom: 15px;
+}
+
+.footer_ul_amrc {
+margin: 0px;
+list-style-type: none;
+font-size: 14px;
+padding: 0px 0px 10px 0px;
+}
+
+.footer_ul_amrc li {
+    padding: 0px 0px 5px 0px;
+}
+
+    .footer_ul_amrc li a {
+        color: #CCC;
+    }
+
+        .footer_ul_amrc li a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+.fleft {
+float: left;
+}
+
+.padding-right {
+padding-right: 10px;
+}
+
+.footer_ul2_amrc {
+margin: 0px;
+list-style-type: none;
+padding: 0px;
+}
+
+.footer_ul2_amrc li p {
+    display: table;
+}
+
+.footer_ul2_amrc li a:hover {
+    text-decoration: none;
+}
+
+.footer_ul2_amrc li i {
+    margin-top: 5px;
+}
+
+.bottom_border {
+border-bottom: 1px solid #323f45;
+padding-bottom: 20px;
+}
+
+.foote_bottom_ul_amrc {
+list-style-type: none;
+padding: 0px;
+display: table;
+margin-top: 10px;
+margin-right: auto;
+margin-bottom: 10px;
+margin-left: auto;
+}
+
+.foote_bottom_ul_amrc li {
+display: inline;
+}
+
+.foote_bottom_ul_amrc li a {
+color: #999;
+margin: 0 12px;
+}
+
+.social_footer_ul {
+display: table;
+margin: 15px auto 0 auto;
+list-style-type: none;
+}
+
+.social_footer_ul li {
+padding-left: 20px;
+padding-top: 10px;
+float: left;
+}
+
+.social_footer_ul li a {
+color: #CCC;
+border: 1px solid #CCC;
+padding: 8px;
+border-radius: 50%;
+}
+
+.social_footer_ul li i {
+width: 20px;
+height: 20px;
+text-align: center;
+}

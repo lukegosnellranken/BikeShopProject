@@ -10,53 +10,87 @@
 
     <h3>Register</h3>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>First Name</label>
-        @Html.TextBoxFor(x => x.CustomerFirstName, new { @class = "form-control" })
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerFirstName, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="registerFormGroup form-group col-xs-4">
         <label>Last Name</label>
-        @Html.TextBoxFor(x => x.CustomerLastName, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerLastName, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>Address</label>
-        @Html.TextBoxFor(x => x.CustomerStreetAddress, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerStreetAddress, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>City</label>
-        @Html.TextBoxFor(x => x.CustomerCity, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerCity, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>State</label>
-        @Html.TextBoxFor(x => x.CustomerState, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerState, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>Postal Code</label>
-        @Html.TextBoxFor(x => x.CustomerZipCode, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerZipCode, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
         <label>Area Code</label>
-        @Html.TextBoxFor(x => x.CustomerAreaCode, new { @class = "form-control" })
-        <label>Phone Number</label>
-        @Html.TextBoxFor(x => x.CustomerPhoneNumber, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerAreaCode, new { @class = "form-control" })
+        </div>
     </div>
 
-    <div class="form-group">
+    <div class="registerFormGroup form-group col-xs-4">
+        <label>Phone Number</label>
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerPhoneNumber, new { @class = "form-control" })
+        </div>
+    </div>
+
+    <div class="registerFormGroup form-group col-xs-4">
         <label>Email Address (Used as User Name)</label>
-        @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+        <br />
+        <div class="registerTextbox">
+            @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+        </div>
     </div>
 
     @*<div class="form-group">
-        <label>Password</label>
-        @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
-        @Html.TextBoxFor(x => x.CustomerPassword, new { @class = "form-control" })
-    </div>*@
+            <label>Password</label>
+            @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
+            @Html.TextBoxFor(x => x.CustomerPassword, new { @class = "form-control" })
+        </div>*@
 
     <div class="text-center">
         <input class="btn btn-primary" type="submit" value="Register" />
     </div>
+
+
 }
 

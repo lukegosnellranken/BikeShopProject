@@ -15,48 +15,48 @@
                         <legend class="text-center header">Contact Form</legend>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="fname" name="name" type="text" placeholder="First Name" class="form-control" required>
                             </div>
                         </div>
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-user bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="lname" name="name" type="text" placeholder="Last Name" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="email" name="email" type="text" placeholder="Email Address" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="phone" name="phone" type="text" placeholder="Phone" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="address" name="address" type="text" placeholder="Address" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <input id="city" name="city" type="text" placeholder="City" class="form-control" required>
                             </div>
                         </div>
 
                         <div class="form-group">
-                            <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-envelope-o bigicon"></i></span>
+                            <span class="col-md-1 col-md-offset-2 text-center"></span>
                             <div class="col-md-8">
                                 <select class="form-control" id="state" name="state" required>
                                     <option value="">State</option>
@@ -126,18 +126,24 @@
                         </div>
 
                         <br />
-                        <label for="reason" class="col-sm-2 control-label">Reason for Contacting:</label>
-                        <div class="form-group form-check form-check-inline" required>
-                            <br />
-                            <br />
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="newsletter">
-                            <label class="form-check-label" for="inlineCheckbox1">Sign up for our newsletter</label>
-                            <br />
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="quote">
-                            <label class="form-check-label" for="inlineCheckbox2">Ask for a price quote</label>
-                            <br />
-                            <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="appointment">
-                            <label class="form-check-label" for="inlineCheckbox2">Schedule an appointment</label>
+
+                        <div id="reasonForContacting">
+                            <label for="reason" class="col-sm-2 control-label">Reason for Contacting:</label>
+                            <div class="form-group form-check form-check-inline" required>
+                                <br />
+                                <br />
+                                <br />
+                                <div id="reasonForContactingOptions">
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="newsletter">
+                                    <label class="form-check-label" for="inlineCheckbox1">Sign up for our newsletter</label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="quote">
+                                    <label class="form-check-label" for="inlineCheckbox2">Ask for a price quote</label>
+                                    <br />
+                                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" value="appointment">
+                                    <label class="form-check-label" for="inlineCheckbox2">Schedule an appointment</label>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="form-group">
@@ -158,6 +164,12 @@
         </div>
     </div>
 </div>
+
+<br />
+<br />
+<br />
+<br />
+<br />
 
 <style>
     .header {

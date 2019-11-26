@@ -1,15 +1,19 @@
 ﻿@model SalesOrdersProject.Models.Product
 
+<div id="productImageAndText">
     <div style="display: inline-block">
-        <div style="width: 30%; float: left;">
+        <div style="width: 30%; float: left; padding-top: .5em; padding-left: 5%;">
             <img src="@Url.Content(Model.ProductImage)"
-                 width="200"
-                 height="150"
+                 width="250"
+                 height="180"
                  alt="@Model.ProductName"
-                 title="@Model.ProductName" />
+                 title="@Model.ProductName" 
+                 style="border: solid;
+                        border-width: .5em;"
+            />
         </div>
 
-        <div style="width: 70%; float: left;">
+        <div style="width: 70%; float: left; color: white; padding-left: 10%; font-size: 120%;">
             <h3>@Html.DisplayFor(modelModel => Model.ProductName)</h3>
 
             <p>@Html.DisplayFor(modelModel => Model.ProductDescShort)</p>
@@ -24,3 +28,4 @@
             </p>
         </div>
     </div>
+</div>

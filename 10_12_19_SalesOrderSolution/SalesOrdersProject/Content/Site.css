@@ -5,10 +5,19 @@ width: 100%;
 background-color: darkkhaki;
 }
 
+#reasonForContacting{
+    padding-left: 3%;
+}
+
+#reasonForContactingOptions {
+    padding-left: 15%;
+}
+
+
 #shopPage {
 margin: 0 auto;
 padding-left: 20%;
-padding-top: 5%;
+padding-right: 20%;
 }
 
 #productsPageContent {
@@ -51,6 +60,7 @@ width: 100%;
 /*border: solid;
 border-width: 2em;
 border-color: white;*/
+/*padding-top: 2.5em;*/
 }
 
 #indexImage {
@@ -75,6 +85,11 @@ width: 100%;
     width: 50%;
     height: 20%;
     font-size: 40px;
+}
+
+.btnText{
+    margin: 0 auto;
+    padding-top: 3%;
 }
 
 #indexAboutUsImage {
@@ -177,6 +192,35 @@ color: white;
 display: none;
 border: solid;
 border-color: black;
+}
+
+#loginScreen {
+    margin: 0 auto;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    padding-left: 40%;
+}
+
+#loginSubmit{
+    /*margin-bottom: 70%;*/
+}
+
+.registerFormGroup {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-width: 100%;
+    
+    padding-top: 5%;
+}
+
+.registerTextbox{
+    
+    width: 30%;
+}
+
+#fillerDiv{
+    padding-top: 5%;
 }
 
 
@@ -326,4 +370,81 @@ border-radius: 50%;
 width: 20px;
 height: 20px;
 text-align: center;
+}
+
+#productImageAndText {
+    padding-top: 5em;
+    padding-bottom: 5em;
+    padding-right: 10%;
+    background-color: #aaa460;
+    border: solid;
+    border-width: .2em, .5em, .2em, .5em;
+    border-color: black;
+}
+
+
+/*NAVBAR STUFF*/
+.navbar{
+    min-height: 90px;
+    min-width: 100%;
+}
+
+#custom-bootstrap-menu{
+    margin: 0 auto;
+    min-width: 100%;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand{
+    width: 20em;
+    height: 11.5%;
+    margin-top: -1em;
+}
+
+#custom-bootstrap-menu.navbar-default .navbar-brand img{
+    width: 100%;
+}
+
+#firstListItem{
+    /*margin-left: 40%;*/
+}
+
+#custom-bootstrap-menu.navbar-default {
+    padding-top: .5em;
+    font-size: 32px;
+    background-color: rgba(40, 66, 36, 1);
+    border-width: 0px;
+    border-radius: 0px;
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(40, 66, 36, 1);
+    text-align: center;
+    padding-left: 20px;
+    margin-top: 1em;
+    /*padding-right: 20px;*/
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(52, 92, 47, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(68, 117, 61, 1);
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #44753d;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #44753d;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #44753d;
+}
+#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #284224;
 }

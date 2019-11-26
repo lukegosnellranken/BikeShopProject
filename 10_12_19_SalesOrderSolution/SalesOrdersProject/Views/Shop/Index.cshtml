@@ -5,9 +5,11 @@
 }
 
 <div id="onlineStoreImage">
-    <img src="~/Image/onlineStore1.png" />
+    <img src="~/Image/onlineStore2.png" />
 </div>
-
+<br />
+<br />
+<br />
 <div id="shopPage">
 
     @using (Html.BeginForm("Index", "Shop", FormMethod.Post,
@@ -39,6 +41,7 @@
         <br />
         <br />
 
+
         foreach (var item in Model.Products)
         {
             @Html.Partial("Product", item)
@@ -64,6 +67,11 @@
                     </div>
                 </div>*@
         }
+
+        <br />
+        <br />
+        <br />
+        <br />
 
         <div class="pager">
             @Html.PageLinks(Model.Pagination, x => Url.Action("Index", new
@@ -98,3 +106,8 @@
                 }
         </table>*@
 </div>
+
+<br />
+<br />
+<br />
+<br />

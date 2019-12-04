@@ -138,7 +138,9 @@ namespace SalesOrdersProject.Controllers
                 ShippingAddress     = cart.ShippingInfo.Address,
                 ShippingCity        = cart.ShippingInfo.City,
                 ShippingState       = cart.ShippingInfo.State,
-                ShippingPostalCode  = cart.ShippingInfo.PostalCode
+                ShippingPostalCode  = cart.ShippingInfo.PostalCode,
+                //Order Confirmation Number
+                //OrderNumber         = TimeSpan.Parse(DateTime.Now).ToString();
             };
 
             db.Orders.Add(order);

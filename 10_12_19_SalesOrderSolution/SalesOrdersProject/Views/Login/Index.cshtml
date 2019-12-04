@@ -6,31 +6,57 @@
 
 <h3>Login:</h3>
 
-@using (Html.BeginForm("Index", "Login"))
-{
-    @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+@*@using (Html.BeginForm("Index", "Login"))
+    {
+        @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
 
-    @Html.ValidationSummary(true, "Login failed.  Check login details")
+        @Html.ValidationSummary(true, "Login failed.  Check login details")
 
-    <div id="loginScreen">
-        <div class="form-group">
-            <div class="col-xs-4">
-                <label>Email Address</label>
-                @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+        <div id="loginScreen">
+            <div class="form-group">
+                <div class="col-xs-4">
+                    <label>Email Address</label>
+                    @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+                </div>
             </div>
         </div>
-    </div>
 
-    @*<div class="form-group">
+        <div class="form-group">
             <label>Password</label>
             @Html.PasswordFor(x => x.CustomerPassword, new { @class = "form-control" })
             @Html.TextBoxFor(x => x.CustomerPassword, new { @class = "form-control" })
-        </div>*@
+        </div>
 
-    <div id="loginSubmit">
-        <div class="loginSubmit text-center">
+        <div id="loginSubmit">
+            <div class="loginSubmit text-center">
+                <input class="btn btn-primary" type="submit" value="Login" />
+            </div>
+        </div>
+    }*@
+
+<div id="loginForm2">
+    <h3>User Login</h3>
+    <br />
+    @using (Html.BeginForm("Index", "Login"))
+    {
+        @Html.AntiForgeryToken()
+
+        @Html.Hidden("returnUrl", "Request.Url.PathAndQuery")
+
+        @Html.ValidationSummary(true, "Login Failed. Check login details.")
+
+        <div class="form-group">
+            <label>Email Address:</label>
+            @Html.TextBoxFor(x => x.CustomerEmailAddress, new { @class = "form-control" })
+        </div>
+
+        <div class="form-group">
+            <label>Password:</label>
+            @Html.TextBoxFor(x => x.CustomerPassword, new { @class = "form-control" })
+        </div>
+
+        <div class="text-center">
             <input class="btn btn-primary" type="submit" value="Login" />
         </div>
-    </div>
-}
-
+    }
+</div>

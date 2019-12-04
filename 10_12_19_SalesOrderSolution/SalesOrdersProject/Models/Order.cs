@@ -29,6 +29,7 @@ namespace SalesOrdersProject.Models
         public string ShippingCity { get; set; }
         public string ShippingState { get; set; }
         public string ShippingPostalCode { get; set; }
+        public string OrderNumber { get; set; }
     
         public virtual Customer Customer { get; set; }
         public virtual Employee Employee { get; set; }

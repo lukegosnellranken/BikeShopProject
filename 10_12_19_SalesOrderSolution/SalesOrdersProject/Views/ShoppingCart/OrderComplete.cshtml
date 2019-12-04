@@ -1,6 +1,22 @@
-﻿
-@{ 
-    ViewBag.Title = "Thanks";
+﻿@model SalesOrdersProject.Models.ShoppingCartModel
+
+@{
+    ViewBag.Title = "Thank You";
 }
 
 <h2>Thanks for your order!</h2>
+<br />
+<h2>RECEIPT</h2>
+
+<h2>Your order confirmation number</h2>
+@*OrderNumber row created in dbo.Orders
+Commented out code in ShoppingCartController.cs*@
+
+<h2>Subtotal</h2>
+@Model.GetCartTotal().ToString("c");
+
+<h2>Tax</h2>
+@Model.GetCartTax().ToString("c");
+
+<h2>Final Total</h2>
+@Model.GetCartFinalTotal().ToString("c");

@@ -41,9 +41,26 @@ namespace SalesOrdersProject.Models
             items.RemoveAll(p => p.Product.ProductID == productID);
         }
 
+        //To get cart subtotal
         public decimal GetCartTotal()
         {
             return (decimal)items.Sum(s => s.Product.ProductPrice * s.Quantity);
+        }
+
+        //To get the cart tax
+        public decimal GetCartTax()
+        {
+            return ((decimal)(items.Sum(s => s.Product.ProductPrice * s.Quantity))) * (Convert.ToDecimal(0.1));
+        }
+
+        //To get the final total
+        public decimal GetCartFinalTotal()
+        {
+            return (
+                (decimal)items.Sum(s => s.Product.ProductPrice * s.Quantity)
+                +
+                ((decimal)(items.Sum(s => s.Product.ProductPrice * s.Quantity))) * (Convert.ToDecimal(0.1))
+                );
         }
 
         public void Clear()
